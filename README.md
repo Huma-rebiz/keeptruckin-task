@@ -1,25 +1,43 @@
 # Keeptruckin Artist App on React Assignment
 
-This is fully featured *React Assignment*. The app privides us to search Artist by name and returns result as following:
+This is fully featured *React Application as an Assignment*. The app privides us to search Artist by name and returns result as following:
 >> Artist Name
 >> Artist picture.
->> Artish facebook profile link.
+>> Artish facebook profile url.
 >> Artist upcomping events details.
 
 This README helps to setup this application on your local machine.
 
 ## How to Setup
 
-To get started, simply clone this repository and run `npm` to install dependencies. You may need to go over some basic configuration steps.
+To get start, simply clone this repository and run `npm` to install dependencies and follow the following steps.
+
+### Step 1:
 
 ```
 # To clone the repository run the following command 
 git clone https://github.com/Huma-rebiz/keeptruckin-task.git
+
+```
+
+### Step 2:
+
+```
+Open terminal in main directory of apllication
 cd keeptruckin-task
 
+```
+
+### Step 3:
+
+```
 # Install dependencies using npm
 npm install
 
+```
+
+### Step 4:
+```
 # To start application
 npm start
 ```
@@ -38,7 +56,3 @@ I have used npm packages to create this application including the following comp
       b. artist block
       c. event details
 4. About
-
-
-
-
