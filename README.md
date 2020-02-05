@@ -1,10 +1,10 @@
 # Keeptruckin Artist App on React Assignment
 
 This is fully featured *React Application as an Assignment*. The app privides us to search Artist by name and returns result as following:
->> Artist Name
->> Artist picture.
->> Artish facebook profile url.
->> Artist upcomping events details.
+- Artist Name
+- Artist picture.
+- Artist facebook profile url.
+- Artist upcomping events details.
 
 This README helps to setup this application on your local machine.
 
