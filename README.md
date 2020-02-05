@@ -1,32 +1,58 @@
-# Artist Search React Demo
+# Keeptruckin Artist App on React Assignment
 
-This is the robust, fully featured React App Artist search demo. The demo allows the visitor to search through node-modules. This README is a continuation of the article - pull down the master branch to complete code.
+This is fully featured *React Application as an Assignment*. The app privides us to search Artist by name and returns result as following:
+- Artist Name
+- Artist picture.
+- Artist facebook profile url.
+- Artist upcomping events details.
 
-- [Setup](#setup) - Follow these instructions to run the example search application.
-- [Features](#features) - Considerations when building a React-based search application for artist.
+This README helps to setup this application on your local machine.
 
-## Setup
+## How to Setup
 
-To get started, simply clone this repository and run `npm` to install dependencies. You may need to go over some basic configuration steps.
+To get start, simply clone this repository and run `npm` to install dependencies and follow the following steps.
+
+### Step 1:
 
 ```
-# Clone the repository
-git clone https://github.com/links2design/artists.git
-cd artists
+# To clone the repository run the following command 
+git clone https://github.com/Huma-rebiz/keeptruckin-task.git
 
-# Install dependencies
+```
+
+### Step 2:
+
+```
+Open terminal in main directory of apllication
+cd keeptruckin-task
+
+```
+
+### Step 3:
+
+```
+# Install dependencies using npm
 npm install
 
-# start application
+```
+
+### Step 4:
+```
+# To start application
 npm start
 ```
 
-## Features
+## Modules
 
 1. Search artists
-2. Events against searched artist
+2. Upcoming events of searched artist
 
-## General Information
-I have used some 3rd party libraries/npm packages to make my code more efficient like 
-1. `Formik` to mantain forms properties
-2. `Yup` to create validation for form elements
+## Other Details
+I have used npm packages to create this application including the following compnents 
+1. app
+2. header
+3. home
+      a. search artist
+      b. artist block
+      c. event details
+4. About
